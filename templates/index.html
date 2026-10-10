@@ -1,0 +1,27 @@
+<DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alat Konversi Gambar</title>
+</head>
+<body>
+    <h2>Konverter Gambar Sederhana</h2>
+    <form action="/konversi" method="post" enctype="multipart/form-data">
+        <label for="file_gambar">1. Pilih gambar yang ingin dipilih:</label>
+        <input type="file" name="file_gambar" id="file_gambar" accept="image/*" required>
+        <br>
+        <br>
+        <label for="format_tujuan">2. Pilih format tujuan:</label>
+        <select name="format_tujuan" id="format_tujuan">
+            <option value="png">PNG</option>
+            <option value="jpg">JPG</option>
+            <option value="webp">WEBP</option>
+        </select>
+        <br>
+        <br>
+        <button type="submit">Konversi Gambar</button>
+        
+    </form>
+</body>
+</html>

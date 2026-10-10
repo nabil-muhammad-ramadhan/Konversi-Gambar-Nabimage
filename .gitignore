@@ -1,0 +1,11 @@
+# Mengabaikan folder lingkungan virtual Python
+.venv/
+env/
+
+# Mengabaikan file cache bawaan Python
+__pycache__/
+*.pyc
+
+# Mengabaikan file gambar hasil konversi di folder static, tetapi tetap mengunggah foldernya
+static/*
+!static/.gitkeep
